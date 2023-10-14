@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1189px;
+    margin: 0 auto;
+    height: 110px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 134px;
+    
+
+}
+
+button{
+    box-shadow: 2px;
+    padding: 6px 16px;
+    background-color: red;
+    height: 32px;
+    color: floralwhite;
+    font-weight: 500;
+    border-radius: 11px;
+}
+
+button:hover{
+    background-color: floralwhite;
+    color:red;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    /* gap: 34px; */
+    /* height: calc(100vh - 32px); */
+}
+.hero h1{
+    font-weight: 800;
+    font-size: 81px;
+    line-height: 74px;
+}
+.hero p{
+    font-weight: 500;
+    font-size: 12px;
+    color: lightslategray;
+    max-width: 400px;
+}
+.hero-btn{
+    display: flex;
+    gap: 40px;
+   
+}
+.secondary-btn{
+    background: transparent;
+    color: rgb(61, 59, 59);
+    border:1px solid gray;
+}
+
+.shopping p{
+
+    font-size: 14px;
+    color: rgb(35, 34, 34);
+    margin-bottom: 8px;
+}
+
+.brand-logo{
+    display: flex;
+    gap: 4px;
+}
